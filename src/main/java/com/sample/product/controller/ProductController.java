@@ -11,7 +11,7 @@ version: java18
 public class ProductController {
 	@GetMapping("/user")
 	public String getUser() {
-		return "Hi I'm using Jenkins only for testing purpose,Thanks";
+		return "Hi I'm using Jenkins";
 	}
 
 }
