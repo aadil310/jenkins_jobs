@@ -22,7 +22,7 @@ public class ProductControllerTest {
 	    public void testGetUserCorrectResponse() throws Exception {
 	        mockMvc.perform(MockMvcRequestBuilders.get("/api/test/user"))
 	               .andExpect(MockMvcResultMatchers.status().isOk())
-	               .andExpect(MockMvcResultMatchers.content().string("Hi I'm using Jenkins, this is for only testing"));
+	               .andExpect(MockMvcResultMatchers.content().string("Hi I'm using Jenkins"));
 	    }
 	    @Test
 	    public void testIncorrectUrl() throws Exception {
